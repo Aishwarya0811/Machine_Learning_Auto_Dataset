@@ -17,10 +17,17 @@ Dropping the unwantescolumns form the dataset based on the inferences made.
 c. ML Models and Algorithims
 
 Linear regression
+
 KNN regrssor - best param
+
 SGDRegressor - best params
+
 Ridge - best param
+
 Lasso - feature importance, best param
+
 LinearSVR - best param
+
 SVR kernel = 'rbf' and 'poly' - best params
+
 Decision Tree Regressor - best params
