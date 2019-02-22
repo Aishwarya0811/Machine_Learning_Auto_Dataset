@@ -15,6 +15,7 @@ Replacing all columns with a numerical column in this dataset.
 Dropping the unwantescolumns form the dataset based on the inferences made.
 
 c. ML Models and Algorithims
+
 Linear regression
 KNN regrssor - best param
 SGDRegressor - best params
