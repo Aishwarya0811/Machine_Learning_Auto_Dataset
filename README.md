@@ -4,17 +4,18 @@
 
 Getting Dataset ready for ML 
 
-- Data Preparation and Manipulation.
+## Data Preparation and Manipulation.
 
 Missing Value:- Replacing Nan values and how are missing values represented in the dataset.
 Exploration of Data by doing group bys, statistics etc
 
-- Data Imputation and Data Transformation.
+## Data Imputation and Data Transformation.
 
 Replacing all columns with a numerical column in this dataset.
 Dropping the unwantescolumns form the dataset based on the inferences made.
 
-- ML Models and Algorithims
+
+## ML Models and Algorithims
 
 1. Linear regression
 
