@@ -153,3 +153,43 @@ Train an Adaboost model with the best parameter found in the previous question. 
 Use random_state = 0
 
 ## Dimensionality reduction
+Question 1
+Use PCA is to reduce the size of the feature space while retaining 95% of explained variance. What is the size of the transformed feature space?
+
+Question 2
+For the rest of this lab, we will consider reduced train and test sets. For models with hyper-parameter random_state = 0.
+
+Use grid search to find the best parameters of a support vector machine with kernel 'rbf' and following range of parameters:
+
+C in [0.1, 1, 10]
+gamma in [0.1, 1, 10]
+cv = 5
+What are the best parameters of this model?
+
+Question 3
+Train a gradient boosting machine learning model on this dataset with the following hyper-parameters.
+
+n_estimators= 100
+learning_rate=0.5
+random_state = 0
+What is the auc score of test set? (2 significant digits)
+
+Question 4
+Using the model created for previous questions, call predict_proba on the test set. Now change the threshold from 0.5 to 0.75, which means if the probability of an instance belongs to class 0 is higher than or equal to 0.75, then the prediction is label 0, otherwise is label 1.
+
+Now, what is the auc score of test dataset? (2 significant digits)
+
+Note: The first index of predict_proba refers to the probability that the data belong to class 0, and the second refers to the probability that the data belong to class 1.
+
+Question 1
+Use the LocallyLinearEmbedding to reduce the dimensionality of this dataset to 4 (random_state = 0). Train a polynomial regression of degree 2 on the reduced dataset. What is the test score of this model? (2 significant digits)
+
+Question 2
+Use the LocallyLinearEmbedding to reduce the dimensionality of this dataset to 4 (random_state = 0). Train a support vector machine with kernel poly on the reduced dataset with the following parameters:
+
+gamma = 0.1 
+C = 1
+epsilon=0.5
+What is the mean squared error of the reduced train set?
+
+
